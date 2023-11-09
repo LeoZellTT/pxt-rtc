@@ -8,6 +8,7 @@
         "bcd": "github:gbraad/pxt-bcd#v0.1.0"
     },
     "files": [
+        "Logo_Smartfeld.png",
         "README.md",
         "main.ts"
     ],
