@@ -1,6 +1,6 @@
 ## Als Erweiterung verwenden
 
-![](Logo_Smartfeld.png)  
+![](DS3231_RTC_QT.png)  
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
