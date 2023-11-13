@@ -270,6 +270,28 @@ namespace DS3231 {
         return (regValue(DS3231_REG_TEMPL))
     }
 
+    
+    /**
+     *  get Alarm 1 status
+     */
+    //% blockId="DS3231_GET_ALARM1" block="Alarm 1 Status"
+    //% weight=82 blockGap=8
+    //% parts=DS3231 trackArgs=0
+    export function alarm1() {
+        return (regValue(DS3231_REG_STATUS) & 0x01)
+    }
+
+    /**
+     *  get Alarm 2 status
+     */
+    //% blockId="DS3231_GET_ALARM2" block="Alarm 2 Status"
+    //% weight=80 blockGap=8
+    //% parts=DS3231 trackArgs=0
+    export function alarm2() {
+        return (regValue(DS3231_REG_STATUS) & 0x02)
+    }
+
+
     /**
      * set Date and Time
      * @param year is the Jahr  to be set, eg: 2020
