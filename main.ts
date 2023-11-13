@@ -2,6 +2,7 @@
 * makecode DS3231 RTC Package.
 * Based on DS1307 package from https://github.com/makecode-extensions/DS1307
 * engineer: Leonie Zellweger
+* version: 1.0.0
 */
 
 // enums to choose alarm number etc - these must be outside the namespace!
