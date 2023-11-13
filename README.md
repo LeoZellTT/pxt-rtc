@@ -1,5 +1,7 @@
 ## Als Erweiterung verwenden
 
+![](Logo_Smartfeld.png)  
+
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
 * öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
